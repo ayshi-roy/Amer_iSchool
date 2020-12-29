@@ -1,0 +1,15 @@
+.slider-part{
+    background: url(../../images/slider.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+.slider-shadow{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 88px 100px;    
+    height: 500px;
+    
+}
+.slider-text h1{
+    font-size: 50px;
+} 

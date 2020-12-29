@@ -1,0 +1,9 @@
+.nav-item .nav-link{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.nav-item .nav-bar:hover{
+    background-color: #525252;
+    color: white;
+}

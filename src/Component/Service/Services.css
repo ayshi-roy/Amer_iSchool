@@ -1,0 +1,16 @@
+.service-image{
+    background: url(../../images//service.png) no-repeat;
+    /* -webkit-background-size: cover; */
+    /* background-size: cover; */
+    height: 400px;   
+    
+}
+.service-text{
+    font-size:  75px;
+    color: #4C4C4C;
+    font-weight: bold;
+}
+.service-image p{
+    font-weight: 700;
+    font-size: 18px;
+}

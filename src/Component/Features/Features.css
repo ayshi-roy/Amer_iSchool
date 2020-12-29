@@ -1,0 +1,36 @@
+.features{
+    background: #F4F4F4;
+}
+.feature .feature-icon{
+    height: 100px;
+    width: 100px; 
+    background: white; 
+    border: 5px solid #525252;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .3s;   
+    
+}
+.feature{
+    transition: all linear .3s;
+    margin-bottom: 100px;
+}
+.feature-text h4{
+    font-weight: bold;
+    color: #fff;
+}
+.feature .feature-text{
+    padding: 120px 35px 20px 35px;
+    background: #525252;
+    height: 200px;    
+    border-radius: 5px;
+    
+}
