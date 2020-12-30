@@ -4,9 +4,9 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row pt-5 pb-5">
-                    <div className="col-md-3 col-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-lg-3 col-md-3 col-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                         <div className="list1">
                             <ul>
                                 <li><a href="">iSchool for recruiting</a></li>
@@ -17,7 +17,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-3 col-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-lg-3 col-md-3 col-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                         <div className="list2">
                             <ul>
                                 <li><a href="">Careers</a></li>
@@ -27,7 +27,7 @@ const Footer = () => {
                             </ul>
                         </div>                        
                     </div>
-                    <div className="col-md-3 col-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-lg-3 col-md-3 col-12 col-sm-12 col-xs-12 d-flex justify-content-center">
                         <div className="list3">
                             <ul>
                                 <li><a href="">Terms</a></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                             </ul>
                         </div>                        
                     </div>
-                    <div className="col-md-3 col-12 col-sm-12 d-flex justify-content-center">
+                    <div className="col-lg-3 col-md-3 col-12 col-sm-12 d-flex justify-content-center">
                         <div className="list4">
                             <h4>One's Employment,</h4>
                             <h4 className="fame">Our Fame</h4>    
@@ -51,6 +51,9 @@ const Footer = () => {
                         </div>    
                     </div>   
                 </div>
+            </div>
+            <div style={{background:'#0C0C0C', height:'100px'}}>
+                <p className="text-white text-center">www.amariSchool.com</p>
             </div>
         </div>
     );

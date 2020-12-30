@@ -16,7 +16,7 @@ const Features = () => {
         <div className="features mt-5 pt-5">
             <div className="container">
                 <div className="feature-text">
-                    <h2 className="text-center text-dark">OUR EXCLUSIVE FEATURES</h2>
+                    <h2 className="text-center" style={{fontSize:'40px',color:'black',fontWeight:'bold'}}>OUR EXCLUSIVE FEATURES</h2>
                 </div>
                 <div className="row mt-5 pt-5">
                     {

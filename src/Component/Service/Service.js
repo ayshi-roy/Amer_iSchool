@@ -5,8 +5,8 @@ const Service = () => {
     return (
         <div className="container">
             <div className="service-part mt-5">
-                <h1 className="text-center">WHY CHOOSE US</h1>
-                <div className="container mt-3">
+                <h1 className="text-center" style={{fontSize:'40px',color:'black',fontWeight:'bold'}}>WHY CHOOSE US</h1>
+                <div className="container mt-3 pb-5">
                     <div className="col-lg-8 col-md-8 offset-md-2 col-sm-12 col-12">
                         <div className="service-image">
                             <div className="row mt-5 pt-5">
